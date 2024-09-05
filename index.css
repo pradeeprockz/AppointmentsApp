@@ -1,0 +1,94 @@
+/* Write your CSS here */
+.app-container {
+    background-color: #fbc7d4;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .appointments-container {
+    width: 80%;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .app-heading {
+    font-family: 'Roboto';
+    font-size: 28px;
+    font-weight: bold;
+    color: #171f46;
+  }
+  
+  .header-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .appointments-image {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .appointment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+    margin-bottom: 20px;
+  }
+  
+  .title-input,
+  .date-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #b5b7c4;
+    border-radius: 4px;
+  }
+  
+  .add-button {
+    background-color: #8b5cf6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .filter-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .starred-filter-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #9796f0;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .starred-filter-button.active {
+    background-color: #8b5cf6;
+  }
+  
+  .appointments-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .star-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .star-image {
+    width: 30px;
+    height: 30px;
+  }
+  
